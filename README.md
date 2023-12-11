@@ -9,7 +9,7 @@ This bot will input your work hours and days based on the DoIT Student Desktop W
 
 ## How to use the bot
 ### Prerequisites:
-* Ensure **Python 3** is installed on your machine. If not, download it [here](https://www.python.org/downloads/). To see if python is on your machine, go to your terminal and type ``python --version``. If ``Python 3.xx.x`` does not appear, you do not have Python or you do not have the correct version of Python.
+* Ensure **Python 3** is installed on your machine. If not, download it [here](https://www.python.org/downloads/). To see if python is on your machine, go to your terminal and type ``python --version`` or ``python3 --version``. If ``Python 3.xx.x`` does not appear, you do not have Python or you do not have the correct version of Python.
 * Installing **Git** will make the installation process quicker (though it is not necessary). Install git [here](https://git-scm.com/downloads). To see if you have git, go to your terminal and type ``git --version``. If ``git version ...`` does not appear, you do not have Git.
 * You must have **Google Chrome** installed for this application to work. Install chrome [here](https://www.google.com/chrome/).
 
@@ -19,8 +19,8 @@ This bot will input your work hours and days based on the DoIT Student Desktop W
 
 ### Step 2: Installing Requirements
 From your terminal, go inside the TimeSheetBot folder. To confirm you're in the correct directory:
-* **Mac**: type ``ls`` into the terminal. You should see ``.gitignore``, ``calendar_integration.py``, ``main.py``, ``README.md``, ``requirements.txt``, and ``TimeSheetBot.py``
-* **Windows**: type ``dir`` into the terminal. You should see ``.gitignore``, ``calendar_integration.py``, ``main.py``, ``README.md``, ``requirements.txt``, and ``TimeSheetBot.py``
+* **Mac**: type ``ls`` into the terminal. You should see ``calendar_integration.py``, ``main.py``, ``README.md``, ``requirements.txt``, and ``TimeSheetBot.py``
+* **Windows**: type ``dir`` into the terminal. You should see ``calendar_integration.py``, ``main.py``, ``README.md``, ``requirements.txt``, and ``TimeSheetBot.py``
 
 Once in the correct folder, type ``python3 -m pip install -r requirements.txt`` into the terminal. This will install any dependencies the program needs to run.
 
